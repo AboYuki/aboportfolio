@@ -1,0 +1,112 @@
+.block-header {
+    background-color: aqua;
+    max-width: 100%;
+    height: 200px;
+}
+
+.header-name h1 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    max-width: 100%;
+    margin: 0px;
+    padding: 60px;
+}
+
+
+
+.profile-main {
+    max-width: 100%;
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.box-profile {
+
+}
+
+.profile-title {
+    font-size: 15px;
+    margin: 50px;
+}
+
+.item-list {
+    margin-left: 60px;
+}
+
+.my-name {
+    font-size: 20px;
+    margin-left: 120px;
+
+}
+
+.sub-profile {
+    float: right;
+    margin-top: 150px;
+    line-height: 50px;
+}
+
+
+
+.zisseki-main {
+    margin:20px 0 20px;
+    background-color: aquamarine;
+}
+
+.subtitle {
+    margin-bottom: 10px;
+    font-size: auto;
+}
+
+
+.zisseki-list {
+    list-style: none;
+    width: 100%;
+    max-width: 1076px;
+    margin: 30px auto;
+    padding: 0px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.zisseki-list li {
+    display: block;
+    width: 100%;
+    max-width: 348px;
+    float: left;
+    margin-right: 15px;
+}
+
+.zisseki-list li:last-child {
+    margin-right: 0;
+}
+
+.zisseki-list li img {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.zisseki-list li h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.zisseki-list li span {
+    font-size: 18px;
+}
+
+.zisseki-list li .link {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 15px;
+}
+
+.zisseki-list li .link a{
+    background-color: gold;
+    padding: 5px 20px;
+    margin-right: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color:black;
+}
